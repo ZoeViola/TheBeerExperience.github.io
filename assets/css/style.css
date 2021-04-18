@@ -334,7 +334,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.75);
   padding: 30px;
 }
 
@@ -411,6 +411,12 @@ section .container {
 
 .overmij .content p:last-child {
   margin-bottom: 0;
+}
+
+p span {
+  color: #fff;
+  border-bottom: 2px solid #18d26e;
+  padding-bottom: 1px;
 }
 
 /*--------------------------------------------------------------
