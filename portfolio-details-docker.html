@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Activiteiten details</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details ======= -->
+    <div id="sAct-details" class="sAct-details">
+      <div class="container">
+            <h2 id="header" style="color: #18d26e;">Activiteit 3: seminarie Axxes – Development met en voor Docker</h2>
+                  
+            <p style="text-align: justify; text-justify: inter-word;">
+              Op woensdag 25 november 2020 vond het seminarie Docker van het bedrijf Axxes plaats op de Hogeschool PXL.
+              De presentatie draaide rond development met en voor Docker en het werd gegeven door de spreker Jesse
+              Verbruggen. Ik koos dit seminarie omdat we in die periode veel over Docker aan het bijleren waren en omdat
+              Docker ook vaak gebruikt wordt in verschillende projecten, vakken en bedrijven. Ik wou dus heel wat
+              bijleren omdat Docker voor mij nog altijd een redelijk ingewikkeld begrip was.
+            </p>
+            <p style="text-align: justify; text-justify: inter-word;">
+              De doelstelling van dit seminarie was ons meer informeren over Docker en het gebruik duidelijk te maken
+              door een uitgebreide toepassing waarin we in een startproject Docker moesten implementeren. Voor mezelf
+              had ik de doelstelling gezet dat het begrip Docker voor mij veel duidelijker zou moeten worden en dat ik
+              het kan implementeren in mijn eigen projecten.
+            </p>
+            <p style="text-align: justify; text-justify: inter-word;">
+              Jesse Verbruggen begon de presentatie met ons voor te bereiden op de demo van later. Hij gaf aan dan we
+              enkele requirements zoals Docker, Python, VsCode en REST Client moesten installeren. Hierna gaf hij een
+              korte introductie over zichzelf zoals je kan zien in de onderstaande figuur. Daaropvolgend begon hij met een
+              introductie over Docker zelf. Docker is geen VMWare, Virtualbox, Hyper-V, Qemu of Citrix dus concluderend:
+              geen virtuele machine. Maar Docker bevat wel containers, integraties met Host OS, shared resources,
+              lightweight footprint, een snelle start-up en heeft altijd een kleine filesize.
+            </p>
+            <img src="assets/img/semdock1png.png" class="img-fluid w-50 pb-5 mx-auto d-block" alt="">
+            <p style="text-align: justify; text-justify: inter-word;">
+              Docker is open source. Dit betekent dat iedereen kan bijdragen aan Docker en het kan uitbreiden om aan
+              zijn eigen behoeften te voldoen moest er nood zijn aan extra functies die niet standaard beschikbaar zijn.
+              Dockerfile is de basis voor het bouwen van Docker-images. Het is een tekstbestand dat een lijst van
+              commando’s of instructies bevat die beschrijven hoe een Docker-image op basis daarvan gebouwd moet worden.
+              Het commando ‘Docker build’ vertelt Docker zelf om deze image te bouwen door de inhoud (de instructies) in
+              de Dockerfile te volgen. De flow hiervan is te zien in onderstaande figuur.
+            </p>
+            <img src="assets/img/semdock2.png" class="img-fluid w-50 pb-5 mx-auto d-block" alt="">
+            <p style="text-align: justify; text-justify: inter-word;">
+              Docker-images zelf bevatten verschillende lagen: de kernel/bootfs, een base image, build dependencies, de
+              source code, commands, start-up commands en een container runtime. Docker containers zijn configureerbaar
+              in runtime met environment variabelen, networking, een start-upcommando, een user, volumes en een
+              workdirectory.
+            </p>
+            <p style="text-align: justify; text-justify: inter-word;">
+              Na deze theoretische uitleg over Docker mochten we dit toepassen in een project genaamd ‘Project Pets’. In
+              dit project is het mogelijk om huisdieren op te zoeken, toe te voegen, aan te passen en te verwijderen. Al
+              dit wordt gedaan via een RESTful API, wat een application programming inteface (API) is die voldoet aan de
+              beperkingen van de REST-architectuurstijl en interactie met RESTful-webservices mogelijk maakt.
+            </p>
+            <p style="text-align: justify; text-justify: inter-word;">
+              De demo was voor mij uitgebreider dan ik had verwacht. In de lessen werkten we vaak alleen met het builden
+              van images, maar nog niet echt met een volledige startup van alles. Stap één van de demo was om de
+              applicatie te Dockerizen. Hierbij was er al een Dockerfile aanwezig die ons hielp met een Docker-image op
+              te halen die alle dependencies dan installeert. Hierna volgde een Docker-build en het runnen van de API.
+              De laatste stappen waren het maken van onze eigen Docker-image, het starten van een eigen container en ten
+              slotte een API-design implementeren zodat de applicatie ook volledig werkte.
+            </p>
+            <p style="text-align: justify; text-justify: inter-word;">
+              Het resultaat zou een volledig werkende applicatie moeten zijn waarbij we dus huisdieren kunnen opzoeken,
+              toevoegen, aanpassen en verwijderen gebouwd in een Docker-omgeving.
+            </p>
+            <p style="text-align: justify; text-justify: inter-word;">
+              Het hele seminarie verliep naar mijn mening heel snel. De theoretische uitleg in het begin viel wel mee en
+              hier kon ik nog volgen, maar vanaf het moment dat de demo startte ben ik de draad een beetje kwijtgeraakt
+              omdat er zoveel commando’s waren die we moesten uitvoeren. Ik heb toen besloten om niet zelf mee te doen
+              met de demo, maar om gewoon mee te kijken naar wat de spreker deed in de hoop dat het zo misschien
+              duidelijker werd. Vanaf dat moment ging het een beetje beter, maar het was nog steeds te veel informatie
+              in die korte tijd.
+            </p>
+            <p style="text-align: justify; text-justify: inter-word;">
+              Nu ik achteraf dit seminarie aan het samenvatten ben, merk ik wel dat ik veel meer begrijp omdat ik alles
+              nog eens rustig heb kunnen nalezen. Ook de demo zelf stond stap voor stap uitgelegd in de slides en dit is
+              voor mij ook zo beter te volgen zonder een tijdsdruk. Dit was ook de reden dat ik dit seminarie wou
+              opnemen in dit deel van het portfolio zodat ik toch nog terug een kleine zelfstudie kon doen over Docker.
+            </p>
+            <p style="text-align: justify; text-justify: inter-word;">
+              Uiteindelijk ben ik wel tevreden dat ik dit seminarie heb gevolgd omdat ik achteraf bij het nalezen wel
+              een duidelijker beeld heb gekregen over het Docker-begrip.
+            </p>
+            <p style="text-align: justify; text-justify: inter-word;">
+              Nu op stage merk ik dat het bedrijf ook vaak werkt met Docker. We hebben dan ook de opdracht gekregen om
+              hier eens naar te kijken en onszelf meer te informeren. In de toekomst ben ik ook heel zeker dat ik vaak
+              gebruik ga maken van Docker in verschillende toepassingen.
+            </p>
+
+        </div>
+
+      </div>
+    </div><!-- End Portfolio Details -->
+
+  </main><!-- End #main -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
